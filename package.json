@@ -1,0 +1,27 @@
+{
+  "name": "HTML-CSS-TributePage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnyaKarpiuk/HTML-CSS-TributePage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnyaKarpiuk/HTML-CSS-TributePage/issues"
+  },
+  "homepage": "https://github.com/AnyaKarpiuk/HTML-CSS-TributePage#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

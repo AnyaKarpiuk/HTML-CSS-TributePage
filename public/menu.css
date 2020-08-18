@@ -1,0 +1,47 @@
+/* sticky menu script */
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background: #3C4445;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 30px;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+#menu .menuItem a {
+  padding: 10px;
+  margin: 20px;
+  border: solid 3px #FFFEFC;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFEFC;
+}
+
+#menu {
+    display: flex;
+    margin-left: 50px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu .menuItem a:hover {
+  background: white;
+  color:#2C3233;
+  transition: all 0.5s ease;
+  box-shadow: inset 4px 4px 3px #3C4445;
+  position: relative;
+  top: 10px;
+}

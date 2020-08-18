@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&family=Rancho&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  width: 90%;
+  background: #ddd8c5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 40px;
+  font-family: 'Overlock', cursive;
+  font-size: 24px;
+}
+
+#img-div {
+  padding: 20px;
+  margin: 40px;
+  border-bottom: solid 4px #2C3233;
+  border-top: solid 4px #2C3233;
+  width: 95%;
+  top: -80px;
+  position: relative;
+}
+
+#image {
+  width: 800px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 600px;
+  box-shadow: 15px 10px 15px #646c64;
+}
+
+#img-caption {
+  text-align: center;
+  color: #646c64;
+}
+
+#title {
+  font-family: 'Rancho', cursive;
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: #363430;
+  position: relative;
+  top: -100px;
+  text-shadow: 15px 10px 5px #5E5C54;
+}
+
+/* .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  background-color: #646c64;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 20px 50px;
+  position: relative;
+  width: 40%;
+  background: #FFFEFC;
+}
+
+.content {
+  padding: 20px;
+  color: #646c64;
+}
+
+.left {
+  left: 0;
+  clip-path: polygon(0% 0%, 94% 0, 100% 11%, 94% 100%, 0% 100%);
+}
+
+.right {
+  left: 51%;
+  clip-path: polygon(6% 0, 100% 0%, 100% 100%, 6% 100%, 0 14%);
+} */
+
+#tribute-info {
+  width: 70%;
+  color: #1c1816;
+}
+
+#tribute-info h1 {
+  color: #815542;
+  text-align: center;
+  padding-top: 30px;
+}

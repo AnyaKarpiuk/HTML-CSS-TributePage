@@ -1,0 +1,64 @@
+body {
+  counter-reset: count 1970;
+}
+
+.timeline {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.par:nth-child(n+2) {
+  border-top: solid 7px #3C4445;
+}
+
+.par {
+  margin: 0;
+  padding: 20px;
+}
+
+.par:nth-child(even) {
+  border-left: solid 7px #3C4445;
+}
+
+.par:nth-child(odd) {
+  border-right: solid 7px #3C4445;
+}
+
+.par {
+  background: #FCFDFF;
+  padding: 40px;
+  position: relative;
+  box-shadow: 10px 10px 10px #494952;
+}
+
+.left{
+  left: 90px;
+}
+
+.right {
+  right: 90px;
+}
+
+.par:before {
+    counter-increment: count;
+    content: counter(count) " year";
+    position: absolute;
+    border-radius: 10%;
+    padding: 20px;
+    height: 50px;
+    width: 80px;
+    background-color: #3C4445;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.left:before {
+  left: -180px;
+}
+
+.right:before {
+  right: -180px;
+}
