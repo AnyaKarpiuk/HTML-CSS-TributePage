@@ -1,58 +1,68 @@
-body {
-  counter-reset: count 1970;
-}
+/* timeline script */
 
 .timeline {
-  width: 60%;
+  width: 90%;
   margin: auto;
   padding: 20px;
   font-size: 24px;
 }
 
+/* draw a top border on every second container */
 .par:nth-child(n+2) {
-  border-top: solid 7px #3C4445;
+  border-top: solid 7px #537A7A;
 }
 
 .par {
   margin: 0;
-  padding: 20px;
+  padding: 50px;
 }
 
+/* draw a left borders */
 .par:nth-child(even) {
-  border-left: solid 7px #3C4445;
+  border-left: solid 7px #537A7A;
 }
 
+/* draw a right borders */
 .par:nth-child(odd) {
-  border-right: solid 7px #3C4445;
+  border-right: solid 7px #537A7A;
 }
 
-.par {
+/* content */
+.right,.left {
   background: #FCFDFF;
   padding: 40px;
   position: relative;
   box-shadow: 10px 10px 10px #494952;
+  text-align: center;
+  opacity: 0.9;
 }
 
 .left{
-  left: 90px;
+  left: -150px;
+  margin-left: 120px;
+  margin-top: 200px;
 }
 
 .right {
-  right: 90px;
+  right: -150px;
+   margin-right: 120px;
+  margin-top: 200px;
 }
 
-.par:before {
-    counter-increment: count;
-    content: counter(count) " year";
+/* year's container */
+.right:before, .left:before {
     position: absolute;
-    border-radius: 10%;
+    border-radius: 50%;
     padding: 20px;
-    height: 50px;
+    height: 80px;
     width: 80px;
-    background-color: #3C4445;
+    background-color: #494952;
     text-align: center;
+    display: flex;
+    align-items: center;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
+    border: solid 7px #537A7A;
 }
 
 .left:before {
@@ -62,3 +72,73 @@ body {
 .right:before {
   right: -180px;
 }
+
+/* display years for each container */
+.one .right:before {
+    content: "1951 year";
+}
+
+.two .left:before {
+    content: "1969 year";
+}
+
+.three .right:before {
+    content: "1973 year";
+}
+
+.four .left:before {
+    content: "1976 year";
+}
+
+.five .right:before {
+    content: "1987 year";
+}
+
+.six .left:before {
+    content: "2014 year";
+}
+
+/* set background image and size for each container */
+.one {
+  background: url("https://i.pinimg.com/564x/24/b0/e1/24b0e12cb4ebda3a907e061658122b72.jpg");
+  background-repeat: no-repeat;
+  background-size: 30% 80%;
+  background-position: left;
+}
+
+.two {
+  background: url("https://www.macleans.ca/wp-content/uploads/2014/08/MAC_WILLIAMS_LIFE_AND_TIMES_02.jpg");
+  background-repeat: no-repeat;
+  background-size: 30% 80%;
+  background-position: right;
+}
+
+.three {
+  background: url("https://www.thesun.co.uk/wp-content/uploads/2017/08/robinwilliams_tall.jpg");
+  background-repeat: no-repeat;
+  background-size: 30% 80%;
+  background-position: left;
+}
+
+.four {
+  background: url("https://cdn.britannica.com/35/181535-050-F9D29E86/comic-Robin-Williams.jpg");
+  background-repeat: no-repeat;
+  background-size: 30% 80%;
+  background-position: right;
+}
+
+.five {
+  background: url("https://thumbs-prod.si-cdn.com/XPDI9cEdTY7s2yti79ip0aZztL0=/800x600/filters:no_upscale():focal(928x261:929x262)/https://public-media.si-cdn.com/filer/a4/28/a428b17e-1b56-4ce5-9073-90b9b26897e2/42-61149009.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% 80%;
+  background-position: left;
+}
+
+.six {
+  background: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/08/13/17/Robin-Williams.jpg?w968h681");
+  background-repeat: no-repeat;
+  background-size: 50% 80%;
+  background-position: right;
+}
+
+
