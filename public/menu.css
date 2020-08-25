@@ -2,7 +2,7 @@
 
 header {
     position: sticky;
-    width: 100%;
+    width: 105%;
     top: 0;
     z-index: 1;
     background: #537A7A;
@@ -15,7 +15,9 @@ header {
 #logo {
     margin-left: 30px;
     font-size: 28px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    color: #272634;
+    font-weight: bold;
 }
 
 #menu .menuItem a {
@@ -39,9 +41,9 @@ header {
 
 #menu .menuItem a:hover {
   background: white;
-  color:#2C3233;
+  color:#272634;
   transition: all 0.5s ease;
-  box-shadow: inset 4px 4px 3px #3C4445;
+  box-shadow: inset 4px 4px 3px #272634;
   position: relative;
   top: 10px;
 }
