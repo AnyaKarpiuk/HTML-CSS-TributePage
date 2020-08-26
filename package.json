@@ -1,34 +1,25 @@
 {
-  "name": "html-css-tributepage",
+  "name": "tribute-page-html-css",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js",
-    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-    "server": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnyaKarpiuk/HTML-CSS-TributePage.git"
+    "url": "git+https://github.com/AnyaKarpiuk/tribute-page-html-css.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnyaKarpiuk/HTML-CSS-TributePage/issues"
+    "url": "https://github.com/AnyaKarpiuk/tribute-page-html-css/issues"
   },
-  "homepage": "https://github.com/AnyaKarpiuk/HTML-CSS-TributePage#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.4",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
+  "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
-  "heroku-run-build-script": true
+  "devDependencies": {},
+  "keywords": []
 }
