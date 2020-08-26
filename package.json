@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "keywords": []
+    "express": "^4.17.1",
+    "kill-port": "^1.6.1",
+    "node-url-shortener": "^1.1.10"
+  }
 }
