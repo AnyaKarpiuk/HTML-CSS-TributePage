@@ -1,11 +1,13 @@
 {
-  "name": "HTML-CSS-TributePage",
+  "name": "html-css-tributepage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,12 @@
   },
   "homepage": "https://github.com/AnyaKarpiuk/HTML-CSS-TributePage#readme",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "heroku-run-build-script": true
 }
