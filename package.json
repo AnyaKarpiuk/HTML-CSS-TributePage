@@ -2,10 +2,13 @@
   "name": "tribute-page-html-css",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,10 +19,5 @@
   "bugs": {
     "url": "https://github.com/AnyaKarpiuk/tribute-page-html-css/issues"
   },
-  "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "kill-port": "^1.6.1",
-    "node-url-shortener": "^1.1.10"
-  }
+  "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme"
 }
