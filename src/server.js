@@ -14,4 +14,12 @@ app.get ('/', function(req, res){
 
 server.listen(process.env.port || 8080);
 
+var io = require('socket.io')(server);
+
+io.on('connection', function(socket){
+    socket.on('message', function(msg){
+        io.emit('message', msg)
+    });
+});
+
 
