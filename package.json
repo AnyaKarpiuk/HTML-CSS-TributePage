@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+   "node": "12.18.3"
+   },
   "dependencies": {
     "express": "^4.17.1",
     "node-static": "^0.7.11",
