@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/AnyaKarpiuk/tribute-page-html-css/issues"
   },
-  "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme"
+  "homepage": "https://github.com/AnyaKarpiuk/tribute-page-html-css#readme",
+  "heroku-run-build-script": true
 }
