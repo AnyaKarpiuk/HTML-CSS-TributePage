@@ -36,9 +36,9 @@ body {
   background: linear-gradient(
     to right, 
     #272634 0%, 
-    #27263400 100% 
+    #272634 100% 
   );
-  background-size: 70% 100%;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
 }
 
@@ -52,7 +52,7 @@ body {
   position: relative;
   max-width: 600px;
   z-index: 1;  
-  outline: 7px solid #537A7A;
+  outline: 7px solid white;
   outline-offset: -30px;
 }
 
