@@ -12,7 +12,7 @@ app.get ('/', function(req, res){
     res.sendFile(path.join(__dirname, '/main.html'));
 });
 
-server.listen(process.env.port || 8080);
+server.listen(process.env.PORT || 8080);
 
 var io = require('socket.io')(server);
 
